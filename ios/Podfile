@@ -1,0 +1,33 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'RestauranteGenerico' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for RestauranteGenerico
+
+pod 'Firebase/Core'
+pod 'Firebase/Auth'
+pod 'Firebase/Database'
+pod 'Fabric'
+pod 'Crashlytics'
+
+  target 'RestauranteGenericoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'RestauranteGenerico-tvOS' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for RestauranteGenerico-tvOS
+
+  target 'RestauranteGenerico-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+end
